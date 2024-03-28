@@ -18,3 +18,12 @@ float sem sinal é considerado positivo.
 # EX:
 print(1.1, 10.11)
 print(0.0)
+
+"""
+A função type mostra o tipo que o Python inferiu ao valor
+"""
+print(type('Allyson'))
+print(type(1))
+print(type(1.1)), print(type(-1.1), type(0.0))  
+
+

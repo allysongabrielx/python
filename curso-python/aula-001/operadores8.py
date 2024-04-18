@@ -1,20 +1,20 @@
 adicao = 10 + 10
-print('Adição', adicao)
+print('Adição:', adicao)
 
 subtracao = 10 - 5
-print('Subtração', subtracao)
+print('Subtração:', subtracao)
 
 multiplicacao = 10 * 10
-print('Multiplicação', multiplicacao)
+print('Multiplicação:', multiplicacao)
 
 divisao = 10 / 2.2
-print('Divisão', divisao)
+print('Divisão:', divisao)
 
 divisao_inteira = 10 // 2.8 # // serve para arredondar o valor sem o float
-print('Divisão inteira', divisao_inteira)
+print('Divisão inteira:', divisao_inteira)
 
 exponenciacao = 2 ** 10
-print('Exponenciação', exponenciacao)
+print('Exponenciação:', exponenciacao)
 
 modulo = 55 % 5 # Resto da divisão
-print('Modulo', modulo)
+print('Modulo:', modulo)

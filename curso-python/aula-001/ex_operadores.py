@@ -5,7 +5,7 @@ altura = 1.70
 peso = 72
 imc = peso / (altura * altura)
 
-linha_2 = f'{imc:.2f}' # LInha de formatação servepara colocar casas decimais
+linha_2 = f'{imc:.1f}' # LInha de formatação servepara colocar casas decimais
 
 print(nome, 'tem', altura, 'de altura', 'pesa:', peso, 'Kg', 'e seu IMC é:')
 print(linha_2)

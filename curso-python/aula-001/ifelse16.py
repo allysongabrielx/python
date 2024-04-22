@@ -1,6 +1,8 @@
 # if / elif / else
 # se / se não se / se não
 """"
+# Exercício 1
+
 entrada = input ('Você quer "entrar" ou "sair"? ')
 
 
@@ -17,6 +19,9 @@ else:
 
 
 """
+"""
+
+# Exercício 2
 
 idade = int(input ('Informe sua idade: '))
 
@@ -30,3 +35,20 @@ elif idade >= 18 and idade < 65:
 else:
     print('Você é um idoso')
     print(' ')
+
+
+"""
+
+
+# Exercício 3
+
+numero = int(input('Digite um número:'))
+
+if numero > 0:
+    print ('Número positivo')
+
+elif numero < 0:
+    print ('Número negativo')
+
+else:
+    print ('Número zero')

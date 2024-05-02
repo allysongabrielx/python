@@ -12,7 +12,7 @@ try:
     numero_1 = float(numero_1)
     numero_2 = float(numero_2)
 
-    
+   
     soma = (numero_1 + numero_2)
     print(f'A soma de {numero_1} + {numero_2} é = {soma}')
 

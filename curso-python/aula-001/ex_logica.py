@@ -39,9 +39,11 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 """
 primeiro_nome = input ('DIgite seu primeiro nome: ')
 
-if len (primeiro_nome) <= 4:
+if len (primeiro_nome) > 1 and len(primeiro_nome)<= 4:
     print('Seu nome é curto.')
 elif len (primeiro_nome) >= 5 and len(primeiro_nome) <= 6:
     print('Seu nome é médio.')
 elif len (primeiro_nome) > 6:
     print('Seu nome é grande.')
+else:
+    print('Digite mais de uma letra.')
